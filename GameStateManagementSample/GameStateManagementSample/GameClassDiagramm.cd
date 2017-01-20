@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="GameStateManagement.GameScreen" Collapsed="true">
+    <Position X="5.5" Y="20" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAwAEBCAAARQAgAEEAIAAAAADAAAAA4AAgAGAkYIBAY=</HashCode>
+      <FileName>ScreenManager\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.AI.ChaseAndEvade">
+    <Position X="7.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAUQAgQCoBACAAYAAMAAACAAgEAAABABACQwAAgAAAA=</HashCode>
+      <FileName>AI\ChaseAndEvade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.CollisionDetection.CollisionDetection">
+    <Position X="14.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAEAgAIADAAAAAAgAIAAAAGQAAAAAgSAAAAA=</HashCode>
+      <FileName>CollisionDetection\CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.CollisionDetection.QuadTree&lt;T&gt;">
+    <Position X="14.5" Y="21.5" Width="3.25" />
+    <NestedTypes>
+      <Class Name="GameStateManagement.CollisionDetection.QuadTree&lt;T&gt;.QuadNode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CollisionDetection\QuadTree.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIEAACIBAhCCAAIAkBAgAEAAAgQgZAAAAAIgACAQ=</HashCode>
+      <FileName>CollisionDetection\QuadTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.Config">
+    <Position X="16.5" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAKAAEAAAAQAAIAAkAAAAACBAAAIgRAgCAkAA=</HashCode>
+      <FileName>GameObjects\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.GameObject">
+    <Position X="2.75" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>UAxgKBBBAEEAAIJBACBgIDAAMAAEAAACACgCcAAICoA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.House">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAABBAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\House.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.MovingGameObject">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAABACAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\MovingGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.NotMovingGameObject">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GameStateManagement.GameObjects.NotMovingGameObject.DomainTyp" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObjects\NotMovingGameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="GameStateManagement.GameObjects.NotMovingGameObject.DomainStruct" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObjects\NotMovingGameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\NotMovingGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.NPC">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAXBAAAAwQABAAAAAAAAAAABAAAAAQAAIEAAACBBAAA=</HashCode>
+      <FileName>GameObjects\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.Player">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAgAAAAAAAAAAEEACAAQAAACAABAEA=</HashCode>
+      <FileName>GameObjects\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.GameObjects.Wall">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAEA=</HashCode>
+      <FileName>GameObjects\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Screens.GameScreens.Manager">
+    <Position X="3.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAABCCAAAAAAIAAGAQAAAAAAQAAEAMAAAAA=</HashCode>
+      <FileName>Screens\GameScreens\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Screens.GameScreens.OverWorld">
+    <Position X="1" Y="21.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>UASBMGCCQggSRgAACEAAAAAEAQQYgAEJAAQAIkGCgAQ=</HashCode>
+      <FileName>Screens\GameScreens\OverWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Screens.GameScreens.Rooms">
+    <Position X="5.5" Y="21.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EASBMGCCQggSBgAECEABAEAIAAQYgAEJAAQgIkUDgAQ=</HashCode>
+      <FileName>Screens\GameScreens\Rooms.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Screens.GameScreens.UnderWorld">
+    <Position X="10" Y="21.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAShMGCCCggSQgAACEABAECIAAQYgAEJAAQAIkEDgAQ=</HashCode>
+      <FileName>Screens\GameScreens\UnderWorld.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Utilities.Util">
+    <Position X="16.5" Y="6.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAACAAAAAgAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Utilities\Util.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameStateManagement.Camera.Camera2D">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAAAAAAwAAAAAAAgEAAAIAAAAAAgAAAA=</HashCode>
+      <FileName>Camera\Camera2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GameStateManagement.CollisionDetection.IQuadObject">
+    <Position X="6.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CollisionDetection\IQuadObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GameStateManagement.AI.AiOption">
+    <Position X="6" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAIAAAAAA=</HashCode>
+      <FileName>AI\ChaseAndEvade.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.AI.AiState">
+    <Position X="6" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAQAAACAAABAAAAAA=</HashCode>
+      <FileName>AI\ChaseAndEvade.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.AI.AiTypes">
+    <Position X="6" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAMAABAAgAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AI\ChaseAndEvade.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.CollisionDetection.CollisionDirection">
+    <Position X="12.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAQAQABAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDetection\CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.CollisionDetection.Direction">
+    <Position X="18" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACEAAAAAAAAAAAQgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollisionDetection\QuadTree.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.GameObjects.GameObjectID">
+    <Position X="0.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAIADAAAACAAAAAIAAAAAAAAAAgAAwAEAIAAQEAEAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.GameObjects.GameObjectOption">
+    <Position X="0.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABEAAAA=</HashCode>
+      <FileName>GameObjects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GameStateManagement.GameObjects.Direction">
+    <Position X="14.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAQAQAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>GameObjects\MovingGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
